@@ -43,6 +43,7 @@ const AddNewComment = ({ postId, setPosts }: Props) => {
         return [...prevState];
       }
     });
+    setFormValues(defaultValues);
   };
 
   return (
